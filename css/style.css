@@ -2915,7 +2915,8 @@ pre .javascript .function {
 .icon-github,
 .icon-google,
 .icon-facebook,
-.icon-twitter {
+.icon-twitter,
+.icon-youtube {
   margin: 0 10px;
   position: relative;
   font-size: 25px;
@@ -2943,6 +2944,12 @@ pre .javascript .function {
 }
 .icon-twitter:before {
   content: "\f099";
+}
+.icon-youtube {
+  color: #e60000;
+}
+.icon-youtube:before {
+  content: "\f167";
 }
 .sidebar-menu-icon,
 .sidebar-menu-link {
